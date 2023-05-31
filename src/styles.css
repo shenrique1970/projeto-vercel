@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18rem;
+    padding: 5rem;
+    align-items: center;
+}
+
+.task-item {
+    box-sizing: content-box;
+    width: 60%;
+    border: solid #5B6DCD 1px;
+    border-radius: 5px;
+    padding: 5px;
+}

@@ -26,8 +26,7 @@ export default function App() {
         {tarefas.map((tarefa) => {
           return (
             <div className="task-item" key={tarefa.id}>
-              <p> {tarefa.id} - {tarefa.tille} </p>
-              
+              <p> {tarefa.id} - {tarefa.title} </p>
             </div>
           )
           })}
