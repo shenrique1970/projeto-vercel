@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <div>
-      <h1 className={styles.titulo}>Deploy na vercel</h1>
+      <h1 className={styles.title}>Deploy no git</h1>
       <div>
         {tarefas.map((tarefa) => {
           return (
